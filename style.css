@@ -12,6 +12,15 @@ body::before {
   z-index: -1;
   top: 0;
 }
+header {
+  text-align: center;
+
+  margin-top: 107px;
+}
+
+header img {
+  width: 224px;
+}
 .titulo{
   background: #F67669;
 }
