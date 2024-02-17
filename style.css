@@ -1,5 +1,10 @@
+h1, h2, legend{
+  font-family: "Staatliches", sans-serif;
+}
+
 body{
   background: #BFD7E4;
+  font-family: "Poppins", sans-serif;
 }
 body::before {
   content: '';
