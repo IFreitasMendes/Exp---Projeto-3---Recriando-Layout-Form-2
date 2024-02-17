@@ -98,10 +98,31 @@ input {
   height: 55px;
   border-radius: 8px;
 }
+
 form span {
   color: #C1BCCC;
   font-size: 12px;
   line-height: 20px;
+}
+form select {
+  width: 300px;
+  height: 55px;
+  border-radius: 8px;
+
+  margin-bottom: 32px;
+}
+form textarea{
+  border-radius: 8px;
+
+  margin-bottom: 30px;
+}
+form .form-wrapper-checkbox{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+form .form-wrapper-checkbox input{
+  width: 24px;
 }
 form .botao{
   background: #F67669;
