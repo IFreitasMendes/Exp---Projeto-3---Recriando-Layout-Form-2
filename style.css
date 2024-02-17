@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 h1, h2, legend, form .botao{
   font-family: "Staatliches", sans-serif;
 }
@@ -34,6 +38,7 @@ header h1 {
 header p {
   font-size: 16;
   color: white;
+  margin-bottom: 17px;
 }
 header img {
   width: 224px;
@@ -41,6 +46,10 @@ header img {
 .titulo{
   background: #F67669;
   margin-top: 32px;
+ 
+  border-radius: 20px 20px 0 0;
+ 
+  padding: 50px 275px;
 }
 .titulo h2 {
   font-size: 24;
