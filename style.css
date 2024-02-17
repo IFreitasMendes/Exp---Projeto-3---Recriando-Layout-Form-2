@@ -1,0 +1,23 @@
+body{
+  background: #BFD7E4;
+}
+body::before {
+  content: '';
+  width: 100%;
+  height: 465px;
+
+  background: #293241;
+
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+.titulo{
+  background: #F67669;
+}
+form {
+  background: white;
+}
+form .botao{
+  background: #F67669;
+}
